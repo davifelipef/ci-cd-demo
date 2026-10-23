@@ -8,7 +8,7 @@ const server = http.createServer((request, response) => {
     });
 
     response.end(JSON.stringify({
-        message: "Aplicação executada com sucesso!",
+        message: "Nova versão publicada!",
         status: "online"
     }));
 });
