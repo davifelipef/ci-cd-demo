@@ -26,6 +26,6 @@ test("deve responder com status 200 e JSON", async (t) => {
     assert.equal(data.status, "online");
     assert.equal(
         data.message,
-        "Aplicação executada com sucesso!"
+        "Nova versão publicada!"
     );
 });
